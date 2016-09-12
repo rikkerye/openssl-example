@@ -19,7 +19,7 @@ public:
       hex_stream << std::setw(2) << (int)(unsigned char)byte;
     return hex_stream.str();
   }
-
+ 
   /// Return the MD5 (128-bit) hash from input.
   static std::string md5(const std::string &input, size_t iterations = 1) {
     throw std::logic_error("not yet implemented");
